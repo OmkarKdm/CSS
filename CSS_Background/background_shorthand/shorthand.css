@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+section {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.demo-section {
+    background: #ffffff url("/CSS_Background/background_shorthand/1658718749985680.jpg") no-repeat right top;
+    color: #fff;
+    padding: 20px 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.demo-section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.demo-section p {
+    font-size: 18px;
+    line-height: 1.6;
+}
