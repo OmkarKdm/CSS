@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Borders Demo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 20px;
+        }
+
+        .box {
+            width: 200px;
+            height: 200px;
+            border: 2px solid #333; /* Solid border with color #333 (dark grey) */
+            margin: 20px;
+            padding: 20px;
+            float: left;
+            text-align: center;
+        }
+
+        .dashed-border {
+            border-style: dashed; /* Dashed border */
+        }
+
+        .rounded-border {
+            border-radius: 10px; /* Rounded border with 10px radius */
+        }
+
+        .double-border {
+            border-width: 4px; /* Double border with 4px width */
+            border-style: double;
+        }
+
+        .colored-border {
+            border-color: #ff6600; /* Custom border color #ff6600 (orange) */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">Box 1</div>
+        <div class="box dashed-border">Box 2</div>
+        <div class="box rounded-border">Box 3</div>
+        <div class="box double-border">Box 4</div>
+        <div class="box colored-border">Box 5</div>
+    </div>
+</body>
+</html>
