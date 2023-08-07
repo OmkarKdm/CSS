@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Margin Collapse Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .box {
+            width: 300px;
+            height: 100px;
+            background-color: #3498db;
+            color: white;
+            text-align: center;
+            line-height: 100px;
+            margin: 20px; /* Margin applied to the box */
+        }
+
+        .content {
+            margin-bottom: 30px; /* Margin applied to the content */
+            padding: 10px;
+            background-color: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Margin Collapse Example</h1>
+
+    <div class="content">
+        Content with Margin
+    </div>
+    <div class="box">   
+        Outer Box with Margin
+    </div>
+    <!-- due to margin collapse it will take margin value equal to 30px as opposed to 20px -->
+</body>
+</html>
