@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rounded Borders Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .box {
+            width: 150px;
+            height: 150px;
+            margin: 20px;
+            padding: 10px;
+            border: 2px solid #333; /* Default border */
+        }
+
+        .small-rounded {
+            border-radius: 5px; /* Small rounded border */
+        }
+
+        .medium-rounded {
+            border-radius: 15px; /* Medium rounded border */
+        }
+
+        .full-rounded {
+            border-radius: 50%; /* Large rounded border (circle) */
+            box-sizing: border-box;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Rounded Borders Example</h1>
+    <div class="box">Default Border</div>
+    <div class="box small-rounded">Small Rounded Border</div>
+    <div class="box medium-rounded">Medium Rounded Border</div>
+    <div class="box full-rounded">Full Rounded Border</div>
+</body>
+</html>
