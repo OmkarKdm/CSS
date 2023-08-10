@@ -1,0 +1,31 @@
+/* Reset some default browser styles */
+body, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Center the content */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+/* Text container */
+.text-container {
+    width: 400px;
+    height: 200px;
+    max-width: 100%; /* Ensures the container doesn't exceed its parent's width */
+    border: 2px solid #333;
+    padding: 10px;
+    overflow: auto; /* Add scrollbars if content overflows */
+}
+
+/* Paragraph styles */
+p {
+    margin: 0; /* Remove default margin to prevent extra spacing */
+    font-size: 16px;
+    line-height: 1.5;
+}
