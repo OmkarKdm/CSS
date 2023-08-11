@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Link Text Decorations Demo</title>
+    <style>
+      body,
+      ul,
+      li,
+      a {
+        margin: 0;
+        padding: 0;
+      }
+
+      /* Center the content */
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-color: #f0f0f0;
+      }
+
+      /* List styles */
+      ul {
+        list-style: none;
+      }
+
+      li {
+        margin-bottom: 10px;
+      }
+
+      /* Link styles */
+      a {
+        color: #007bff;
+        text-decoration: underline;
+      }
+
+      /* No Decoration Link */
+      a.no-decoration {
+        text-decoration: none;
+      }
+
+      /* Overlined Link */
+      a.overline {
+        text-decoration: overline;
+      }
+
+      /* Line-Through Link */
+      a.line-through {
+        text-decoration: line-through;
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li><a href="#">Underlined Link</a></li>
+      <li><a href="#" class="no-decoration">No Decoration Link</a></li>
+      <li><a href="#" class="overline">Overlined Link</a></li>
+      <li><a href="#" class="line-through">Line-Through Link</a></li>
+    </ul>
+  </body>
+</html>
